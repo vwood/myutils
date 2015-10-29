@@ -14,7 +14,7 @@ def plot_out(figsize=None, dpi=60, newline=True, print_out=True):
         
     pl.savefig(filename, dpi=dpi)
     if print_out:
-        print "<{}>{}".format(filename, '\n' if newline else '')
+        print("<{}>{}".format(filename, '\n' if newline else ''))
 
     pl.gcf().set_size_inches(old_size)
     pl.clf()
