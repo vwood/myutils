@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
-setup(name='myutils',
-      version='1.0',
+setup(name='vwoodutils',
+      version='0.2',
       description='My python utilities',
-      author='Vaughn Wood',
-      author_email='vwood@vwood.org',
+      long_description='My personal python utilities - now on pypi',
+      author='V Wood',
+      author_email='spam@vwood.org',
       url='',
       packages=['myutils'],
     )
